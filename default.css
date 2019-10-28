@@ -128,36 +128,55 @@ ul.menu li {
           }
 /*FLOTANDO LAS IMAGENES*/
 
+/*especifidad a=0 b=1 c= 1 011*/
 img.estudioclass{
     float:left;
     margin:10px;
    
 }
-
+/*especifidad a=0 b=1 c= 1 011*/
 img.carniceriaclass{
     float:right;
     margin:10px;
    
 }
+/*especifidad a=1 b=0c= 0 100*/
 #carniceria{
     width: 25%;
 }
 
 /**
 FLOTANDO IMAGENES HTML personajes*/
-
+/*especifidad a=0 b=1 c= 1 011*/
 img.jenniferImg{
     float:left;
     margin:10px;
 }
-
+/*especifidad a=1 b=0c= 0 100*/
 #JenniferMelfiImg{
     width:10%;
 }
+/*especifidad a=0 b=1 c= 1 011*/
 img.tonyImg{
     float:left;
     margin:10px;
 }
+/*especifidad a=0 b=1 c= 1 011*/
+video.video{
+    float:left;
+    margin:10px;
+}
+/*especifidad a=0 b=1 c= 1 011*/
+p.videop{
+    float:right;
+    border:2px ;
+	margin: 1em;
+    padding: 1em;}
+
+  /*especifidad a=0 b=1 c= 1 011*/
+audio.audio{ float:left;
+    margin:10px;}
+/*especifidad a=0 b=1 c= 1 011*/
 p.tony{
     float:right;
     border:2px ;
@@ -165,20 +184,29 @@ p.tony{
     padding: 1em;
    
 }
+/*especifidad a=1 b=0c= 0 100*/
 #TonySopranoImg{
     width:12%;
 }
-
+/*especifidad a=0 b=1 c= 1 011*/
 img.paulieimg{
     float:left;
     margin:10px;
 }
-
+/*especifidad a=1 b=0c= 0 100*/
 #PaulieImg{
     width:15%;
 }
-
+/*especifidad a=0 b=1 c= 1 011*/
 img.premioEmmy{
     float:left;
     margin:10px;
 }
+/*especifidad a=1 b=0c= 0 100*/
+#w3c{border:0;
+    width:88px;
+    height:31px}
+/*especifidad a=1 b=0c= 0 100*/
+ #html{border:0;
+        width:63px;
+        height:64px}
