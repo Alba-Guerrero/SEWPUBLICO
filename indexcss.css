@@ -16,11 +16,27 @@ img.ImagenSoprano{
     padding: 1em;
 }
 
+/*especifidad a=0 b=1 c=2 012*/
+ul.navbar li {
+    background:#c7ddfc;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid #909090}
+
+    /*especifidad a=0 b=1 c=1 011*/
+ul.navbar {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 2em;
+        left: 1em;
+        width: 9em }
 
 
 
 /*especifidad a=1,b=0,c=0 100*/
-#ImagenSoprano{width:25%;
+#ImagenSoprano{width:20%;
     padding: 1em;
 }
 
@@ -83,22 +99,6 @@ text-decoration-color: #9999CC;
 #indexBody{
     padding-left: 11em;
 }
-/*especifidad a=0 b=1 c=2 012*/
-ul.navbar li {
-    background:#c7ddfc;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid #909090}
-
-    /*especifidad a=0 b=1 c=1 011*/
-ul.navbar {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        top: 2em;
-        left: 1em;
-        width: 9em }
 
  #w3c{border:0;
      width:88px;
